@@ -1,0 +1,24 @@
+Anotações Auxiliares durante o curso de Power BI (Anotações sobre o que a empresa está pedindo)
+
+Requisitos da gerente: (Completo => <T>)
+Faturamento <T>
+Filtro por marca <T>
+Produtos vendidos <T>
+Gêneros que mais compram <T>
+Média de pets dos clientes <T>
+De onde vem a maior parte dos cliente para abrir uma nova loja <T>
+Faturamento por ano, mês e dia <T>
+
+Base de dados disponíveis:
+Arquivo txt dos clientes
+Arquivo do google planilhas dos produtos
+Pasta excel com os valores de venda
+
+Dados no projeto:
+Clientes.txt
+Produtos - Google planilhas
+Pasta com os arquivos Gatito_2020.xlsx, Gatito_2021.xlsx, Gatito_2022.xlsx
+
+Criando uma medida do faturamento dos produtos vendidos:
+Colocar o valor unitário do produto referente a venda na tabelas vendas, criar uma coluna 'faturamento' que multiplica o valor unitário do produto pela 
+quantidade, e criar uma medida na coluna faturamento que soma todos os valores
